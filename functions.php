@@ -33,6 +33,12 @@ function loadJS() {
 }
 add_action('wp_enqueue_scripts', 'loadJS');
 
+// Post image support
+add_theme_support('post-thumbnails');
+// Image sizes
+add_image_size('smallest', 300, 300, true);
+add_image_size('largest', 1000, 1000, true);
+
 // Menus support
 add_theme_support('menus');
 register_nav_menus(array(
