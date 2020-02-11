@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 
+Theme Name: The themO
+Author: Mateusz Ożóg
+Version: 0.01
+Description: Developing theme
+*/
+body {
+  background-color: lightgray;
+}
+
+body header {
+  background-color: gray;
+  height: 30px;
+}
+/*# sourceMappingURL=style.css.map */
